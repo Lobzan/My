@@ -24,9 +24,9 @@ public class Practica10 {
 
          Scanner teclado = new Scanner(System.in);/*Entrada por teclado*/
             System.out.println("Dame la distancia de un lado");/*Imprime "texto"*/
-            lado=teclado.nextInt(); /*lectura teclado para lado*/
+            lado=teclado.nextInt(); /*Asigna la proxima lectura de teclado a lado*/
             
-            /*Formulas para area y volumen del circulo*/
+            /*Formulas para area y volumen del circuloasd*/
          area = 6*Math.pow(lado, 2);
          volumen = Math.pow(lado, 3);
          
