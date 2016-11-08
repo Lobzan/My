@@ -41,7 +41,7 @@ public class Practica12 {
         long m1;
         long mod1 = mod2%1;
                        
-        
+        /*define los billetes como la parte entera que sobra al dividir entre el valor del billete y trabajamos con el resto de euros del billete de superior valor*/ 
         b500 = euros/500;
         b200 = mod500/200;
         b100 = mod200/100;
