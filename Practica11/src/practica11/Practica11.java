@@ -24,10 +24,10 @@ public class Practica11 {
 
         Scanner teclado = new Scanner(System.in);/*Entrada por teclado*/
         System.out.println("Dame un radio");/*Imprime "texto"*/
-        radio = teclado.nextInt();
+        radio = teclado.nextInt();/*Asigna a radio el proximo Int que entre por teclado*/
         /*lectura teclado para radio*/
 
-        area = 4 * Math.PI * Math.pow(radio, 2);
+        area = 4 * Math.PI * Math.pow(radio, 2); /*Formulas de area y volumen de la esfera*/
         volumen = 4 / 3 * Math.PI * Math.pow(radio, 3);
 
         System.out.println("El area de una esfera con radio " + radio + " es " + area);
